@@ -11,12 +11,6 @@ int main()
 	char wordChange; // What to replace the character with
 	cout << "Enter a word smaller than 11 characters: ";
 	cin >> word;
-	if (word[10]) // Run if the word is over 10 characters
-	{
-		cout << "\nINVALID WORD!" << endl;
-		Sleep(3000);
-		return 0;
-	}
 	cout << "\nWord is " << word << endl;
 	for (unsigned int i = 0; i < word.size(); i++) // Show each character 
 	{
