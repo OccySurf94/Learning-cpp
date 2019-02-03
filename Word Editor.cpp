@@ -72,4 +72,5 @@ int main()
     cout << "\nInvalid Word!";
     break;
  }
+  return 0;
 } // Any help on adding longer word edits (not using a switch statement) would be appreciated
