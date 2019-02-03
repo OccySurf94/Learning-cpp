@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string>
-#include <iostream>
-#include <string>
 #include <Windows.h>
 
 using namespace std;
