@@ -12,11 +12,11 @@ int main()
   cout << "Enter a word smaller than 11 characters: ";
   cin >> word;
   if (word[10]) // Run if the word is over 10 characters
-	{
-		cout << "\nINVALID WORD!" << endl;
-		Sleep(4000);
-		return 0;
-	}
+  {
+      cout << "\nINVALID WORD!" << endl;
+      Sleep(4000);
+      return 0;
+  }
   cout << "\nWord is " << word << endl;
   cout << "\nChoose a number which represents a character in the word (1 = 1st Character): ";
   cin >> character;
