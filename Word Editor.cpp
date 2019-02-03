@@ -24,7 +24,7 @@ int main()
 	{
 		cout << "\nCharacter at postion " << i << " is " << word[i];
 	}
-	cout << "\n\nChoose a number which represents a character in the word (1 = 1st Character): ";
+	cout << "\n\nChoose a number which represents a character in the word (0 = 1st Character): ";
 	cin >> character;
 	cout << "\nWhat would you like to replace it with?: ";
 	cin >> wordChange;
